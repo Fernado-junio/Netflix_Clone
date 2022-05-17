@@ -32,7 +32,7 @@ app.set('view engine', 'ejs');
 
 
 
-
+//--------------------Get-------------------------------
 app.get('/', function (req, res) {
     res.render('index')
 })
@@ -40,7 +40,7 @@ app.get('/', function (req, res) {
 
 
 
-
+//----------------Post------------------------------------
 
 
 
